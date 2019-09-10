@@ -1,0 +1,15 @@
+2019-09-07 10:23:53.657  INFO 16576 --- [restartedMain] com.zxy.plus.PlusApplication             : Starting PlusApplication on USER-20180626TE with PID 16576 (F:\Eclipse\Work\plus\target\classes started by Administrator in F:\Eclipse\Work\plus)
+2019-09-07 10:23:53.657  INFO 16576 --- [restartedMain] com.zxy.plus.PlusApplication             : No active profile set, falling back to default profiles: default
+2019-09-07 10:23:53.804  INFO 16576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-07 10:23:53.805  INFO 16576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-07 10:23:53.805  INFO 16576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-07 10:23:53.832  INFO 16576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-07 10:23:53.832  INFO 16576 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 174 ms
+2019-09-07 10:23:53.865  INFO 16576 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2019-09-07 10:23:53.919  INFO 16576 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-07 10:23:53.954  INFO 16576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-07 10:23:53.967  INFO 16576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-07 10:23:53.967  INFO 16576 --- [restartedMain] com.zxy.plus.PlusApplication             : Started PlusApplication in 0.326 seconds (JVM running for 147.493)
+2019-09-07 10:23:53.968  INFO 16576 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-07 10:23:56.388  INFO 16576 --- [Thread-57] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-07 10:23:56.391  INFO 16576 --- [Thread-57] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closed
