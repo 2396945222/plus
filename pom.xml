@@ -24,7 +24,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
@@ -35,7 +35,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- swagger接口api -->
+		<dependency>
+           <groupId>io.springfox</groupId>
+           <artifactId>springfox-swagger2</artifactId>
+           <version>2.2.2</version>
+        </dependency>
+        <dependency>
+           <groupId>io.springfox</groupId>
+           <artifactId>springfox-swagger-ui</artifactId>
+           <version>2.2.2</version>
+        </dependency>
 		<!-- druid连接池 -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -61,15 +71,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-		<!--阿里巴巴 -->
+		<!--阿里巴巴json -->
 		<dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>fastjson</artifactId>
-    <version>1.2.58</version>
-</dependency>
-		
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.58</version>
+		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
